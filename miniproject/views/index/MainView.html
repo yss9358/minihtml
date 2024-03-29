@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attention</title>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/attention.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="mainViewContainer">
+        <div class="managerMenu">
+            <img class="managerBtn" src="../../assets/images/managerIcon.png">
+        </div>
+        <!-- managerMenu -->
+
+        <div class="mainBtn">
+            <button type="button">매장</button>
+            <button type="button">포장</button>
+        </div>
+        <!-- mainBtn -->
+    </div>
+    <!-- mainViewContainer -->
+</div>
+<!-- wrap -->
+</body>
+</html>
+
+<script>
+    
+    // 매니저 관리 버튼 
+    let mangerBtn = document.querySelector(".managerBtn");
+    mangerBtn.addEventListener("click",function(){
+        console.log("관리자 페이지 이동");
+    })
+</script>
